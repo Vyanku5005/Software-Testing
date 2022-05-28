@@ -24,8 +24,8 @@ public class TeatNg_Class {
     public void launchbrowser() {
    System.out.println("vyankatesh");
 	}
-    @Test
-    public void delta() {
-    	System.out.println("YASHWANTRAO");
+//    @Test
+//    public void delta() {
+//    	System.out.println("YASHWANTRAO");
     }
 }
