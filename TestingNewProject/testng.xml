@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="classes">
+  <test name="ChromeTest">
+<parameter name="browser" value="chromebrowser"/>
+    <classes>
+   <class name="Test123.Instagram_Login"/>
+      <class name="Test123.Fb_login_test"/>
+      <class name="Test123.kokilaben_test"/>
+
+    </classes>
+  </test> <!-- Test --> 
+
+ <test name="EdgeBrowser">
+<parameter name="browser" value="edgebrowser"/>
+    <classes>
+      <class name="Test123.Instagram_Login"/>
+      <class name="Test123.Fb_login_test"/>
+      <class name="Test123.kokilaben_test"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
